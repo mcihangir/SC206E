@@ -259,8 +259,8 @@ SSTATE_DIR ?= "${BUILDDIR}/sstate-cache"
 DL_DIR = "/opt/downloads-qcm2290"
 BUILDNAME = "${BUILDNAME}"
 SDK_VERSION = "${BUILDVERSION}"
-BB_NUMBER_THREADS = "4" 
-PARALLEL_MAKE = "-j 4"
+BB_NUMBER_THREADS = "8" 
+PARALLEL_MAKE = "-j 8"
 EOF
 
 function build-qti-robotics-med-image() {
